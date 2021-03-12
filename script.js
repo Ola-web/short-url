@@ -132,7 +132,7 @@ urlContainer.addEventListener('click', (e) => {
     }
     setTimeout(() => {
         e.target.classList.remove('copied')
-        e.target.innerText = 'Copy'
+        e.target.textContent = 'copy'
     }, 10000)
 
 
