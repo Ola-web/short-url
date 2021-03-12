@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <header class="header">
+
+    <a class="logo">Shortly</a>
+
+
+
+    <button class="nav-toggle hide-big-screen" aria-label="open navigation">
+      <span class="hamburger"></span>
+    </button>
+
+
+    <nav class="nav dropdown">
+      <div class="nav__middle">
+        <ul id="nav__item" class="nav__item">
+          <li class="nav__list"><a href="#feature" class="nav__link active">Features</a></li>
+          <li class="nav__list"><a href="#price" class="nav__link">Pricing</a></li>
+          <li class="nav__list"><a href="#resource" class="nav__link">Resources</a></li>
+        </ul>
+      </div>
+      <div class="border-bottom"></div>
+
+      <div class="nav__right">
+        <button class="nav__btn">Login</button>
+        <button class="nav__btn cyan-fill">Sign up</button>
+      </div>
+    </nav>
+  </header>
+  <main class="main ">
+    <div id="feature" class="intro center ">
+      <div class="intro__left">
+        <h1 class="intro__title">More than just <br /> shorter links</h1>
+        <p class="intro__para"> Build your brand’s recognition and get detailed <br /> insights
+          on how your links are performing.</p>
+        <button class="intro__btn cyan-fill">Get Started</button>
+      </div>
+      <div class="intro__right">
+        <img class="work-img" src="images/illustration-working.svg" alt="">
+      </div>
+    </div>
+    <section class="short-url-form container">
+      <form class="form">
+        <div class="field">
+          <input placeholder="Shorten a link here..." type="text" class="short-url__input">
+        </div>
+
+        <button class="input-submit cyan-fill">Shorten it!</button>
+      </form>
+    </section>
+    <div class="short-url-container container">
+      <input type="text" class="hidden">
+    </div>
+    <section id="price" class="statistics center container">
+      <h2 class="statistics__title">Advanced Statistics</h2>
+      <p class="statistics__para bold">
+        Track how your links are performing across the web with <br /> our
+        advanced statistics dashboard.
+      </p>
+      <div class="statistics__container-card">
+        <div class="card">
+          <img class="circle" src="images/icon-brand-recognition.svg" alt="">
+          <div class="card-bottom">
+            <h3 class="card__title">Brand Recognition</h3>
+            <p class="statistics__para">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+        </div>
+        <div class="card step-one line">
+          <img class="circle" src="images/icon-detailed-records.svg" alt="">
+          <div class="verticle-line"></div>
+          <div class="card-bottom">
+            <h3 class="card__title">Detailed Records</h3>
+            <p class="statistics__para">
+              Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+        </div>
+        <div class="card step-two line">
+          <img class="circle" src="images/icon-fully-customizable.svg" alt="">
+          <div class="card-bottom">
+            <h3 class="card__title">Fully Customizable</h3>
+            <p class="statistics__para">
+              Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.
+            </p>
+          </div>
+
+        </div>
+        <div class="horizontal-line"></div>
+      </div>
+    </section>
+    <section class="boost center">
+      <h3 class="boost__title">Boost your links today</h3>
+      <button class="boost__btn cyan-fill">Get Started</button>
+    </section>
+  </main>
+
+  <footer id="resource" class="footer center padding">
+
+    <div class="col-1">
+      <h4 class="footer__header">Shortly</h4>
+    </div>
+    <div class="col-2">
+      <h5 class="footer__title">Features</h5>
+      <ul class="footer__item">
+        <li class="footer__list">Link Shorterning</li>
+        <li class="footer__list">Branded Links</li>
+        <li class="footer__list">Anaytics</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h5 class="footer__title">Resources</h5>
+      <ul class="footer__item">
+        <li class="footer__list">Blog</li>
+        <li class="footer__list">Developers</li>
+        <li class="footer__list">Support</li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <h5 class="footer__title">Company</h5>
+      <ul class="footer__item">
+        <li class="footer__list">About</li>
+        <li class="footer__list">Our Team</li>
+        <li class="footer__list">Careers</li>
+        <li class="footer__list">Contact</li>
+      </ul>
+    </div>
+    <div class="col-5">
+      <ul class="footer__item icons">
+        <li class="footer__icon">
+          <a href="#">
+            <i class="fa fa-facebook fa-2x"></i>
+          </a>
+        </li>
+        <li class="footer__icon">
+          <a href="#">
+            <i class="fa fa-twitter fa-2x "></i>
+          </a>
+        </li>
+        <li class="footer__icon">
+          <a href="#">
+            <i class="fa fa-pinterest fa-2x "></i>
+          </a>
+        </li>
+        <li class="footer__icon">
+          <a href="#">
+            <i class="fa fa-instagram fa-2x "></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- 
+  
+
+  
+
+  Boost your links today
+
+  
+
+  Features
+
+  Link Shortening
+  Branded Links
+  Analytics
+
+  Resources
+
+  Blog
+  Developers
+  Support
+
+  Company
+
+  About
+  Our Team
+  Careers
+  Contact -->
+
+
+</body>
+
+</html>
